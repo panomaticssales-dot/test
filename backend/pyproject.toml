@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdr-blender-backend"
+version = "0.1.0"
+description = "Professional exposure fusion for photographers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "Proprietary"}
+authors = [{name = "Panomatic Sales"}]
+keywords = ["hdr", "exposure-fusion", "photography", "raw", "bracket"]
+
+[project.urls]
+Homepage = "https://github.com/panomaticssales-dot/test"
+Repository = "https://github.com/panomaticssales-dot/test.git"
+
+[tool.setuptools.packages.find]
+where = ["src"]
